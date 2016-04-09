@@ -1,9 +1,11 @@
 #include <cstdlib>
+#include <iostream>
+using namespace std;
 
 class Position{
 private:
-	float *x;
-	float *y;
+	float x;
+	float y;
 
 public:
 	Position();
